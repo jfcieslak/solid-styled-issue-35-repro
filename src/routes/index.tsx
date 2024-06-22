@@ -1,7 +1,13 @@
 import { Title } from "@solidjs/meta";
+import { css } from "solid-styled";
 import Counter from "~/components/Counter";
 
 export default function Home() {
+  css`
+    p {
+      font-weight: 700;
+    }
+  `;
   return (
     <main>
       <Title>Hello World</Title>
