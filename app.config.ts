@@ -8,9 +8,9 @@ export default defineConfig({
       solidStyled({
         filter: {
           include: "src/**/*.tsx",
-          exclude: "node_modules/**/*.{ts,js}"
-        }
-      }) as PluginOption
-    ]
-  }
+          exclude: "node_modules/**/*.{ts,js}",
+        },
+      }) as PluginOption,
+    ],
+  },
 });
